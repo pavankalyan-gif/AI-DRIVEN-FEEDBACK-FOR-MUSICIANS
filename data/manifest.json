@@ -1,0 +1,9 @@
+{
+  "nsynth_samples": 600,
+  "maestro_samples": 1276,
+  "guitarset_samples": 360,
+  "synthetic_audio": 400,
+  "synthetic_logs": 300,
+  "total_audio": 1360,
+  "total_logs": 1576
+}

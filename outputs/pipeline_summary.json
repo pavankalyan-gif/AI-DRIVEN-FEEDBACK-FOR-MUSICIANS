@@ -1,0 +1,71 @@
+{
+  "pipeline_version": "AI_MUSIC_FEEDBACK_v2.0",
+  "platform": "linux",
+  "elapsed_seconds": 1822.1,
+  "datasets": {
+    "nsynth_samples": 600,
+    "maestro_samples": 1276,
+    "guitarset_samples": 360,
+    "synthetic_audio": 400,
+    "synthetic_logs": 300,
+    "total_audio": 1360,
+    "total_logs": 1576,
+    "mean_alignment": 0.6815107923001051,
+    "high_alignment": 16,
+    "low_alignment": 3
+  },
+  "models": {
+    "quality_scorer": {
+      "train_mae": 2.425365768897787,
+      "test_mae": 6.065821088509274,
+      "train_r2": 0.9772148962940884,
+      "test_r2": 0.8293918304431875,
+      "test_rmse": 8.049325080770398,
+      "cv_mae_mean": 6.392905446563036,
+      "cv_mae_std": 1.95925059326979,
+      "train_samples": 1088,
+      "test_samples": 272,
+      "n_features": 51
+    },
+    "skill_classifier": {
+      "accuracy": 0.8823529411764706,
+      "cv_acc_mean": 0.7742647058823529,
+      "cv_acc_std": 0.1903630886919315,
+      "classification_report": {
+        "Advanced": {
+          "precision": 0.9933774834437086,
+          "recall": 0.9375,
+          "f1-score": 0.9646302250803859,
+          "support": 160.0
+        },
+        "Beginner": {
+          "precision": 0.7121212121212122,
+          "recall": 0.8392857142857143,
+          "f1-score": 0.7704918032786885,
+          "support": 56.0
+        },
+        "Intermediate": {
+          "precision": 0.7818181818181819,
+          "recall": 0.7678571428571429,
+          "f1-score": 0.7747747747747747,
+          "support": 56.0
+        },
+        "accuracy": 0.8823529411764706,
+        "macro avg": {
+          "precision": 0.8291056257943675,
+          "recall": 0.8482142857142857,
+          "f1-score": 0.8366322677112831,
+          "support": 272.0
+        },
+        "weighted avg": {
+          "precision": 0.8919154537191156,
+          "recall": 0.8823529411764706,
+          "f1-score": 0.8855726631759399,
+          "support": 272.0
+        }
+      },
+      "train_samples": 1088,
+      "test_samples": 272
+    }
+  }
+}

@@ -1,0 +1,28 @@
+==================================================
+  VIRTUOSO FEEDBACK REPORT
+==================================================
+
+📊 Summary: Excellent session — 0 flag(s) detected
+⭐ Overall Rating: 8/10
+
+🎵 Audio Analysis:
+✓ Excellent pitch accuracy (100%)
+✓ Dynamics are well-controlled
+Detected note: A4 | Deviation: -0.0 cents
+Detected tempo: 81 BPM
+Overall quality score: 87.2/100
+
+🔄 Alignment:
+Self-report vs Teacher alignment: MODERATE (70%)
+Some overlap detected. Teacher identified areas student may have missed.
+
+📅 Session:
+Session: Sonata Op. 1
+Focus area: Piano performance
+Duration: 11 min
+Self-rating: 8/10 | Teacher rating: 7/10
+
+💡 Actionable Tips:
+  1. Set one specific achievable goal per practice session.
+  2. End each session by noting what improved and what to tackle next time.
+==================================================
